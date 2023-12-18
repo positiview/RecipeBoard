@@ -1,0 +1,131 @@
+*{margin: 0;padding: 0;}
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+#wrap{
+	box-sizing:border-box;
+	background-color: white;
+	width: 468px;height: 676px;
+	box-shadow: 1px 1px 5px gray;
+	font-family: 'Noto Sans KR', sans-serif;
+	margin : auto;
+	margin-top: 46px;
+	
+}
+body{
+        background-color: lightgray;
+    }
+h2{
+	padding-top:60px;
+	padding-bottom:54px;
+	color: #000000;	/* 글 색상 */
+}
+
+ input{
+ 		box-sizing:border-box;
+        width: 365px; height: 45px;
+        margin-top: 20px;
+        padding:8px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        border: solid 0px grey;
+        box-shadow: 1px 1px 5px gray;
+        flex-shrink: 0; 
+         
+ }
+ .in:hover{
+ 	border: solid 2px #19B5FE;
+ }
+ .in{
+ 	border: solid 1px grey;
+ }
+#login {
+	background-color: #c0c0c0;
+	box-shadow: 1px 1px 5px gray;
+	width: 368px;height: 50px;
+	color: white;
+	marging-top:87px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20px;
+	font-style: bod;
+	font-weight: 400;
+	line-height: normal;
+}
+#login:hover {
+	background-color: #19B5FE;
+	box-shadow: 1px 1px 5px gray;
+	width: 368px;height: 50px;
+	color: white;
+	marging-top:87px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20px;
+	font-style: bod;
+	font-weight: 400;
+	line-height: normal;
+}
+#join{
+	background-color:#c0c0c0;
+	width: 368px;height: 50px;
+	box-shadow: 1px 1px 5px gray;
+	color: white;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	
+}
+#join:hover{
+	background-color:#19B5FE;
+	width: 368px;height: 50px;
+	box-shadow: 1px 1px 5px gray;
+	color: white;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	
+}
+
+.line{
+	width: 180px;
+	border: solid 1px #c0c0c0;
+	display: inline-block;
+	
+	
+}
+.or{
+	color:  #c0c0c0;
+	display: inline-block;
+}
+.box{
+	margin-left:24px;
+	margin-right:24px;
+	
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+a{
+	
+  	height: 58px; 
+	width: 58px;
+	margin:40px;
+	background-color:white;
+	border:1px gray;
+	display: block; 
+	border-radius: 10px;
+	
+}
+
+span{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	color: #19B5FE;
+}
